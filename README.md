@@ -19,4 +19,27 @@ This project incorporates machine learning models trained to predict the probabi
 
 To run the application locally, clone this repository using the following command:
 
-`git clone https://github.com/your-username/multiple-disorder-prediction.git`
+`git clone https://github.com/ayushtiwari134/multiple_disorder_predictor`
+
+
+### Running the App
+
+After cloning the repository, navigate to the project directory and execute the following command to run the app:
+
+`streamlit run app.py`
+
+
+This command will start the Streamlit web application locally, enabling access to the multiple disorder prediction interface.
+
+## Deployment
+
+The application is deployed using Streamlit Cloud Services, offering a live environment to predict the likelihood of obesity and diabetes in individuals.
+
+## Features
+
+- **Input Parameters:** Users can input various health-related factors, such as BMI, blood sugar levels, age, etc.
+- **Prediction:** The application predicts whether a person is obesity and/or diabetic based on the provided inputs.
+- **Efficient Data Processing:** Utilizes pipelines and column transformers for efficient data handling and model predictions.
+
+
+
